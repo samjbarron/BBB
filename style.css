@@ -44,21 +44,13 @@ body {
 
   font-size: 36px;
 
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 
-  color: #c84b31;
+  color: #234e70;
 
-  background: linear-gradient(
-    to right,
-    #234e70,
-    #3c7a3d,
-    #c84b31,
-    #d9a441
-  );
-
-  -webkit-background-clip: text;
-
-  -webkit-text-fill-color: transparent;
+  text-shadow:
+    2px 2px #d9a441,
+    4px 4px #c84b31;
 }
 
 /* NAVIGATION */
