@@ -1,16 +1,19 @@
+id="9s7j0a"
 body {
-  background-color: #d8d1c5;
+  background-color: #f6f1e7;
 
-  color: #2e2a26;
+  color: #2d2d2d;
 
-  font-family: "Verdana", sans-serif;
+  font-family: Verdana, sans-serif;
 
   margin: 0;
 
   padding: 10px;
+
+  background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
 }
 
-/* GIF BANNER */
+/* BANNER */
 
 #banner {
   width: 100%;
@@ -23,27 +26,25 @@ body {
 
   background-size: auto 100%;
 
-  border: 4px ridge #7f6d5a;
+  border: 3px outset #8fa6c9;
 
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 /* TITLE */
 
 #name-banner {
-  background-color: #6e3f38;
-
-  border: 4px ridge #c2a878;
-
-  color: #f5ead7;
-
-  text-align: center;
-
-  padding: 12px;
-
   width: 92%;
 
   margin: 12px auto;
+
+  padding: 12px;
+
+  background-color: #d7ddeb;
+
+  border: 4px ridge #b78d6a;
+
+  text-align: center;
 }
 
 #name-banner h2 {
@@ -51,53 +52,55 @@ body {
 
   font-size: 34px;
 
+  font-family: "Times New Roman", serif;
+
   letter-spacing: 2px;
 
-  font-family: "Times New Roman", serif;
+  color: #6d3d3d;
 }
 
-/* NAVIGATION */
+/* NAV */
 
 #leftnav {
   float: left;
 
   width: 15%;
 
-  background-color: #4e5b6b;
-
-  border: 4px groove #c2a878;
+  margin: 10px;
 
   padding: 10px;
 
-  margin: 10px;
+  background-color: #f3d7c3;
+
+  border: 4px groove #8fa6c9;
 }
 
 #leftnav ul {
-  list-style-type: square;
-
   padding-left: 18px;
+
+  list-style-type: square;
 }
 
 #leftnav li {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 #leftnav a {
-  color: #f5ead7;
-
-  text-decoration: underline;
+  color: #3f5c88;
 
   font-weight: bold;
+
+  text-decoration: underline;
 }
 
 #leftnav a:hover {
-  background-color: #c2a878;
+  background-color: #fff1a8;
 
-  color: #2e2a26;
+  color: #000;
 }
 
 #leftnav a:visited {
-  color: #d6c3d6;
+  color: #7d5b8c;
 }
 
 /* MAIN CONTENT */
@@ -107,13 +110,13 @@ body {
 
   width: 77%;
 
-  background-color: #efe6d6;
-
-  border: 4px ridge #7f6d5a;
+  margin: 10px;
 
   padding: 18px;
 
-  margin: 10px;
+  background-color: #fffdf8;
+
+  border: 4px ridge #b78d6a;
 
   box-sizing: border-box;
 
@@ -122,11 +125,9 @@ body {
 
 #page-content h2,
 #page-content h3 {
-  color: #6e3f38;
+  color: #6d3d3d;
 
-  font-family: "Times New Roman", serif;
-
-  text-transform: uppercase;
+  font-family: "Georgia", serif;
 }
 
 /* PHOTOS */
@@ -146,19 +147,19 @@ body {
 
   display: block;
 
-  border: 4px ridge #4e5b6b;
+  border: 4px ridge #8fa6c9;
 }
 
 /* MUSIC */
 
 .music-box {
-  border: 3px dashed #6e3f38;
+  margin-top: 20px;
 
   padding: 15px;
 
-  margin-top: 20px;
+  background-color: #e7ebf4;
 
-  background-color: #d8d1c5;
+  border: 3px dashed #b78d6a;
 }
 
 .music-box audio {
@@ -170,21 +171,23 @@ body {
 #email-button {
   display: inline-block;
 
-  background-color: #4e5b6b;
-
-  color: #f5ead7;
-
-  border: 4px outset #c2a878;
-
   padding: 12px 20px;
 
-  font-weight: bold;
+  background-color: #d7ddeb;
+
+  color: #3f5c88;
+
+  border: 3px outset #b78d6a;
 
   text-decoration: none;
+
+  font-weight: bold;
 }
 
 #email-button:hover {
-  background-color: #6e3f38;
+  background-color: #fff1a8;
+
+  color: #000;
 }
 
 /* FOOTER */
@@ -194,13 +197,13 @@ body {
 
   text-align: center;
 
-  border-top: 4px double #7f6d5a;
+  margin-top: 30px;
 
   padding: 15px;
 
-  margin-top: 30px;
+  border-top: 4px double #8fa6c9;
 
-  color: #4e5b6b;
+  color: #6d3d3d;
 }
 
 /* MOBILE */
