@@ -40,13 +40,25 @@ body {
 #name-banner h2 {
   margin: 0;
 
-  color: #234e70;
-
   font-family: Georgia, serif;
 
-  font-size: 34px;
+  font-size: 36px;
 
-  letter-spacing: 1px;
+  letter-spacing: 3px;
+
+  color: #c84b31;
+
+  background: linear-gradient(
+    to right,
+    #234e70,
+    #3c7a3d,
+    #c84b31,
+    #d9a441
+  );
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
 }
 
 /* NAVIGATION */
