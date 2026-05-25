@@ -162,3 +162,35 @@ body {
 
   font-size: 14px;
 }
+
+#email-button {
+  display: inline-block;
+
+  margin-top: 25px;
+
+  padding: 14px 24px;
+
+  background-color: #5f5a89;
+
+  color: #f4efe6;
+
+  text-decoration: none;
+
+  border-radius: 6px;
+
+  border: 1px solid #8a84c2;
+
+  font-family: 'Cinzel', serif;
+
+  letter-spacing: 2px;
+
+  transition: 0.3s;
+}
+
+#email-button:hover {
+  background-color: #8a84c2;
+
+  color: #121317;
+
+  transform: translateY(-2px);
+}
