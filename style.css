@@ -216,3 +216,56 @@ body {
 
   opacity: 0.9;
 }
+
+@media screen and (max-width: 700px) {
+
+  #banner {
+    height: 90px;
+    background-size: auto 90px;
+  }
+
+  #name-banner {
+    width: 92%;
+    padding: 14px;
+  }
+
+  #name-banner h2 {
+    font-size: 26px;
+    letter-spacing: 3px;
+  }
+
+  #leftnav {
+    float: none;
+    width: 92%;
+    margin: 15px auto;
+    box-sizing: border-box;
+  }
+
+  #leftnav ul {
+    text-align: center;
+  }
+
+  #leftnav li {
+    margin-bottom: 8px;
+  }
+
+  #leftnav a {
+    padding: 10px;
+  }
+
+  #page-content {
+    float: none;
+    width: 92%;
+    margin: 15px auto;
+    box-sizing: border-box;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #footer {
+    margin-top: 30px;
+    padding: 20px;
+  }
+}
