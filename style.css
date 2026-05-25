@@ -213,6 +213,8 @@ body {
 }
 
 .visitor-counter {
+  clear: both;
+
   text-align: center;
 
   margin-top: 25px;
