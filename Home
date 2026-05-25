@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BBB | Bailey Barton</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="banner">
+    <h1>BBB</h1>
+  </div>
+
+  <div id="name-banner">
+    <h2>Bailey Barton</h2>
+  </div>
+
+  <div id="leftnav">
+    <h3>Menu</h3>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="music.html">Music</a></li>
+      <li><a href="shows.html">Shows</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="page-content">
+    <h2>Welcome to BBB</h2>
+
+    <p>
+      Bailey Barton is a New York musician writing and performing music inspired by
+      blues, folk, and rock.
+    </p>
+
+    <p>
+      This site features upcoming shows, music releases, photos, and updates.
+    </p>
+
+    <h3>Latest</h3>
+    <p>
+      New songs, live dates, and recordings coming soon.
+    </p>
+  </div>
+
+  <div id="footer">
+    <p>BBB | Bailey Barton</p>
+  </div>
+
+</body>
+</html>
