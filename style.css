@@ -1,22 +1,29 @@
 body {
-  background-color: #2c2a27;
-  color: #e7dcc7;
+  background-color: #d8d1c5;
+
+  color: #2e2a26;
+
   font-family: "Verdana", sans-serif;
+
   margin: 0;
-  padding: 12px;
+
+  padding: 10px;
 }
 
 /* GIF BANNER */
 
 #banner {
   width: 100%;
+
   height: 110px;
 
   background-image: url("gifs/bird.gif");
+
   background-repeat: repeat-x;
+
   background-size: auto 100%;
 
-  border: 3px ridge #8a7f72;
+  border: 4px ridge #7f6d5a;
 
   margin-bottom: 10px;
 }
@@ -24,13 +31,15 @@ body {
 /* TITLE */
 
 #name-banner {
-  background-color: #3a3530;
+  background-color: #6e3f38;
 
-  border: 3px ridge #8a7f72;
+  border: 4px ridge #c2a878;
+
+  color: #f5ead7;
 
   text-align: center;
 
-  padding: 14px;
+  padding: 12px;
 
   width: 92%;
 
@@ -40,9 +49,7 @@ body {
 #name-banner h2 {
   margin: 0;
 
-  font-size: 32px;
-
-  color: #efe6d5;
+  font-size: 34px;
 
   letter-spacing: 2px;
 
@@ -54,11 +61,11 @@ body {
 #leftnav {
   float: left;
 
-  width: 14%;
+  width: 15%;
 
-  background-color: #3a3530;
+  background-color: #4e5b6b;
 
-  border: 3px ridge #8a7f72;
+  border: 4px groove #c2a878;
 
   padding: 10px;
 
@@ -72,11 +79,11 @@ body {
 }
 
 #leftnav li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 #leftnav a {
-  color: #d8c7ad;
+  color: #f5ead7;
 
   text-decoration: underline;
 
@@ -84,13 +91,13 @@ body {
 }
 
 #leftnav a:hover {
-  color: #ffffff;
+  background-color: #c2a878;
 
-  background-color: #5b5248;
+  color: #2e2a26;
 }
 
 #leftnav a:visited {
-  color: #c2b3a0;
+  color: #d6c3d6;
 }
 
 /* MAIN CONTENT */
@@ -98,11 +105,11 @@ body {
 #page-content {
   float: right;
 
-  width: 80%;
+  width: 77%;
 
-  background-color: #3a3530;
+  background-color: #efe6d6;
 
-  border: 3px ridge #8a7f72;
+  border: 4px ridge #7f6d5a;
 
   padding: 18px;
 
@@ -115,9 +122,11 @@ body {
 
 #page-content h2,
 #page-content h3 {
-  color: #efe6d5;
+  color: #6e3f38;
 
   font-family: "Times New Roman", serif;
+
+  text-transform: uppercase;
 }
 
 /* PHOTOS */
@@ -137,45 +146,45 @@ body {
 
   display: block;
 
-  border: 3px ridge #8a7f72;
+  border: 4px ridge #4e5b6b;
 }
 
 /* MUSIC */
 
 .music-box {
-  border: 2px groove #8a7f72;
+  border: 3px dashed #6e3f38;
 
   padding: 15px;
 
   margin-top: 20px;
 
-  background-color: #2f2b27;
+  background-color: #d8d1c5;
 }
 
 .music-box audio {
   width: 100%;
 }
 
-/* CONTACT BUTTON */
+/* BUTTON */
 
 #email-button {
   display: inline-block;
 
-  background-color: #5b5248;
+  background-color: #4e5b6b;
 
-  color: #efe6d5;
+  color: #f5ead7;
 
-  border: 3px outset #8a7f72;
+  border: 4px outset #c2a878;
 
   padding: 12px 20px;
 
-  text-decoration: none;
-
   font-weight: bold;
+
+  text-decoration: none;
 }
 
 #email-button:hover {
-  background-color: #72675c;
+  background-color: #6e3f38;
 }
 
 /* FOOTER */
@@ -185,13 +194,13 @@ body {
 
   text-align: center;
 
-  border-top: 3px double #8a7f72;
+  border-top: 4px double #7f6d5a;
 
   padding: 15px;
 
   margin-top: 30px;
 
-  color: #cfc2ae;
+  color: #4e5b6b;
 }
 
 /* MOBILE */
@@ -212,6 +221,6 @@ body {
   }
 
   #name-banner h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
