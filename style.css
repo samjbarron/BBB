@@ -62,25 +62,18 @@ body {
 
 #leftnav {
   float: left;
-  width: 20%;
+
+  width: 12%;
 
   margin-left: 20px;
   margin-top: 20px;
 
-  padding: 18px;
+  padding: 12px;
 
   background-color: #1d1f28;
 
   border: 2px solid #5f5a89;
   border-radius: 6px;
-}
-
-#leftnav h3 {
-  text-align: center;
-  font-family: 'Cinzel', serif;
-  letter-spacing: 3px;
-  margin-top: 0;
-  color: #f4efe6;
 }
 
 #leftnav ul {
