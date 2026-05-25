@@ -200,6 +200,18 @@ body {
   color: #555555;
 }
 
+.corner-gif {
+  position: fixed;
+
+  bottom: 20px;
+
+  right: 20px;
+
+  width: 100px;
+
+  z-index: 999;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 700px) {
