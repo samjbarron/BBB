@@ -1,77 +1,70 @@
 body {
-  background-color: #d7d1c3;
-
-  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
-
-  color: #1f1f1f;
-
+  background-color: #f4ecd8;
+  color: #222222;
   font-family: Verdana, sans-serif;
-
   margin: 0;
-
-  padding: 10px;
+  padding: 12px;
 }
 
-/* GIF BANNER */
+/* TOP GIF BAR */
 
 #banner {
   width: 100%;
-
-  height: 95px;
+  height: 90px;
 
   background-image: url("gifs/bird.gif");
-
   background-repeat: repeat-x;
-
   background-size: auto 100%;
 
-  border: 3px outset #3f5d73;
+  border: 3px solid #c84b31;
 
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 /* TITLE */
 
 #name-banner {
-  background-color: #b44d3f;
+  background-color: #ffffff;
 
-  border: 4px ridge #e0b85c;
+  border: 4px double #d9a441;
 
   text-align: center;
 
-  padding: 12px;
-
   width: 92%;
 
-  margin: 12px auto;
+  margin: 10px auto;
 
-  color: #fff4df;
+  padding: 14px;
 }
 
 #name-banner h2 {
   margin: 0;
 
-  font-size: 36px;
+  color: #234e70;
 
   font-family: Georgia, serif;
 
-  letter-spacing: 2px;
+  font-size: 34px;
+
+  letter-spacing: 1px;
 }
 
-/* NAV */
+/* NAVIGATION */
 
 #leftnav {
   float: left;
 
   width: 14%;
 
-  background-color: #5b7991;
+  background-color: #234e70;
 
-  border: 4px ridge #e0b85c;
+  border: 3px solid #d9a441;
 
   padding: 10px;
 
   margin: 10px;
+
+  box-sizing: border-box;
 }
 
 #leftnav ul {
@@ -85,33 +78,33 @@ body {
 }
 
 #leftnav a {
-  color: #fff4df;
-
-  font-weight: bold;
+  color: #f4ecd8;
 
   text-decoration: underline;
+
+  font-weight: bold;
 }
 
 #leftnav a:hover {
-  background-color: #e0b85c;
+  background-color: #d9a441;
 
-  color: #2a2a2a;
+  color: #222222;
 }
 
 #leftnav a:visited {
-  color: #ead7ff;
+  color: #d8d8ff;
 }
 
-/* CONTENT */
+/* MAIN CONTENT */
 
 #page-content {
   float: right;
 
   width: 78%;
 
-  background-color: #fff4df;
+  background-color: #ffffff;
 
-  border: 4px ridge #7f6d5a;
+  border: 3px solid #c84b31;
 
   padding: 18px;
 
@@ -124,12 +117,12 @@ body {
 
 #page-content h2,
 #page-content h3 {
-  color: #b44d3f;
+  color: #c84b31;
 
   font-family: Georgia, serif;
 }
 
-/* PHOTOS */
+/* PHOTO GRID */
 
 .photo-grid {
   display: grid;
@@ -146,19 +139,19 @@ body {
 
   display: block;
 
-  border: 4px ridge #5b7991;
+  border: 3px solid #234e70;
 }
 
 /* MUSIC */
 
 .music-box {
-  border: 3px dashed #b44d3f;
+  border: 2px dashed #234e70;
+
+  background-color: #f7f3ea;
 
   padding: 15px;
 
   margin-top: 20px;
-
-  background-color: #efe3cb;
 }
 
 .music-box audio {
@@ -170,13 +163,13 @@ body {
 #email-button {
   display: inline-block;
 
-  background-color: #5b7991;
+  background-color: #3c7a3d;
 
-  color: #fff4df;
-
-  border: 4px outset #e0b85c;
+  color: white;
 
   padding: 12px 20px;
+
+  border: 3px outset #d9a441;
 
   text-decoration: none;
 
@@ -184,7 +177,7 @@ body {
 }
 
 #email-button:hover {
-  background-color: #b44d3f;
+  background-color: #c84b31;
 }
 
 /* FOOTER */
@@ -194,15 +187,13 @@ body {
 
   text-align: center;
 
-  border-top: 4px double #7f6d5a;
+  margin-top: 30px;
 
   padding: 15px;
 
-  margin-top: 30px;
+  border-top: 3px double #d9a441;
 
-  color: #3f5d73;
-
-  font-size: 13px;
+  color: #555555;
 }
 
 /* MOBILE */
