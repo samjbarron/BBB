@@ -258,6 +258,28 @@ body {
   background-color: #fff7e8;
 }
 
+.fancy-line {
+  border: 0;
+  border-top: 3px double #c84b31;
+  margin: 20px 0;
+}
+
+.update-box {
+  background-color: #fff7e8;
+  border: 3px dotted #234e70;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+.marquee-text {
+  background-color: #d9a441;
+  color: #222222;
+  border: 2px solid #c84b31;
+  padding: 6px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 700px) {
