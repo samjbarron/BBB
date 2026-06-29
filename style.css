@@ -220,6 +220,44 @@ body {
   margin-top: 25px;
 }
 
+.shows-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  margin-top: 20px;
+
+  background-color: #fff7e8;
+}
+
+.shows-table th {
+  background-color: #234e70;
+
+  color: #f4ecd8;
+
+  border: 2px solid #c84b31;
+
+  padding: 10px;
+
+  text-align: left;
+}
+
+.shows-table td {
+  border: 2px solid #c84b31;
+
+  padding: 10px;
+}
+
+.show-note {
+  margin-top: 25px;
+
+  padding: 12px;
+
+  border: 2px dashed #234e70;
+
+  background-color: #fff7e8;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 700px) {
