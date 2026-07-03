@@ -280,6 +280,36 @@ body {
   margin: 15px 0;
 }
 
+.gif-strip {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.gif-strip img {
+  max-height: 75px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.tiny-gif {
+  max-height: 70px;
+  margin: 8px;
+  vertical-align: middle;
+}
+
+.corner-gif {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  z-index: 999;
+}
+
+.update-box img {
+  max-height: 70px;
+  margin: 5px;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 700px) {
